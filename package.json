@@ -1,0 +1,11 @@
+{
+  "name": "marvel",
+  "version": "1.0.0",
+  "scripts": {},
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "dependencies": {
+    "axios": "^1.7.3"
+  }
+}
