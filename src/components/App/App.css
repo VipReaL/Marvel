@@ -1,0 +1,19 @@
+:root {
+    --color-dark: #222;
+    --color-blue: #3199dc;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+* {
+    scrollbar-color: var(--color-blue) var(--color-dark);
+    scrollbar-width: thin;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--color-dark);
+}
