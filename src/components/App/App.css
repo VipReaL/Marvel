@@ -1,6 +1,7 @@
 :root {
     --color-dark: #222;
     --color-blue: #3199dc;
+    --color-light: #f8f9fa;
 }
 
 *, ::after, ::before {
@@ -13,7 +14,16 @@
 }
 
 body {
-    margin: 0;
+    height: 100vh;
+    margin: 0 auto;
     padding: 0;
     background-color: var(--color-dark);
+    background-image: url(../../img/marvel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: Arial, Helvetica, sans-serif;
 }

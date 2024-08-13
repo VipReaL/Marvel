@@ -1,12 +1,10 @@
 import './App.css'
 
-import { getDataApi } from "../../utils/getDataApi";
-import { BASE_URL, URL_COMICS, URL_CHARACTERS } from '../../constants/api';
+import Comics from '../Comics/Comics';
 
 class App {
     async render() {
-        const data = await getDataApi.getData(BASE_URL + URL_CHARACTERS);
-        console.log(data);
+        await Comics.render();
     }
 }
 
