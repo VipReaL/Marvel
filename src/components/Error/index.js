@@ -1,1 +1,1 @@
-import { default } from './Error';
+export { default } from './Error';

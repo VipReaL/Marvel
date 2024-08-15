@@ -5,13 +5,14 @@ import { getDataApi } from "../../utils/getDataApi";
 import { BASE_URL, URL_COMICS, URL_CHARACTERS, IMG_STANDARD_XLARGE, IMG_NOT_AVAILABLE } from '../../constants/api';
 
 import Error from '../Error/Error';
+import Characters from '../Characters';
 
 class Comics {
     eventListener() {
         document.querySelectorAll('.comics__item').forEach(element => {
             const uri = element.getAttribute('data-url');
             element.addEventListener('click', () => {
-                console.log(uri);
+                Characters.render(uri);
             })
         })
     }
